@@ -140,20 +140,107 @@ nav{
     text-decoration: none;
 }
 .next2{
-    background: linear-gradient(green,yellow);
+    /* background: linear-gradient(green,yellow); */
+    background: rgba(0,0,0,0.8) url(../images/bg\ \(2\).jpg);
+    background-size: cover;
+    background-blend-mode: darken;
     width: 100%;
-    height: 100vh;
-    /* display: block; */
-    /* position: fixed; */
-    /* opacity: 0.5; */
+    height: 110vh;
+    background-attachment: fixed;
+    width: 100%;
+    height:80vh;
+}
+.next2 h3{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 150px;
+    color: red;
+    /* margin-top: -10%; */
+}
+.next2 hr{
+    width: 85%;
+    margin-left: 100px;
+    border: 2px solid orange;
+}
+.next2 .col-mod-3{
+    padding: 20px;
+}
+.next2 .row{
+    display: flex;
+    flex-direction: row;
+}
+.next2 .counter-box{
+    margin-left: 70px;
+    padding: 100px 0px;
+    margin-right: 1px solid #fff;
+}
+.next2 .counter-box h1{
+    font-size: 2rem;
+    color: #ff0066;
+    font-weight: bold   ;
+}
+.next2 .counter-box span{
+    font-size: 2.5rem;
+    color: #ff0066;
 }
 .next3{
-    background: linear-gradient(green,yellow);
+    /* background: linear-gradient(green,yellow); */
+    background: rgba(0,0,0,0.8) url(../images/bg\ \(2\).jpg);
+    background-size: cover;
+    background-blend-mode: darken;
     width: 100%;
     height: 100vh;
-    /* display: block; */
-    /* position: fixed; */
-    /* opacity: 0.5; */
+}
+.next3 .next71{
+    /* background: aqua; */
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: -84px;
+    height: 60vh;
+    padding: 20px;
+}
+.next71 h2
+{
+    text-align: center;
+    color: #fff;
+}
+.next71 p{
+    margin-left: 17%;
+    margin-right: 17%;
+    color: #fff;
+}
+.next71 .wrapper{
+    /* height: 500px; */
+    /* border: 1px solid #fff; */
+    display: flex;
+    overflow-x: auto;
+}
+.next71 .wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.next71 .wrapper .item{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    background-color:#fff;
+}
+.next71 .wrapper .item p{
+    margin: 0;
+    color: black;
+    padding: 20px;
+}
+.next71 .wrapper .item .clients{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    white-space: nowrap;
+}
+.next71 .wrapper .item .clients .university{
+    padding-left: 20px;
 }
 .next4{
     /* background: aqua; */
@@ -194,7 +281,7 @@ nav{
 }
 .next5 .matter{
     padding-top: 100px;
-    padding-left: 30px;
+    padding-right: 100px;
     line-height: 0.5in;
 }
 .next5 .matter button{
